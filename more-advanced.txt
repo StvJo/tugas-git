@@ -1,0 +1,22 @@
+1 biggest difference between git reset and git revert is that git reset will reset the state of the branch to a previous state by dropping all the changes post the desired commit while git revert will reset to a previous state by creating new reverting commits and keep the original commits.
+
+  If you have made a commit, but haven't shared it with anyone else and you decide you don't want it. Then you can use git reset to rewrite the history so that it looks as though you never made that commit.
+
+  If a commit has been made somewhere in the project's history, and you later decide that the commit is wrong and should not have been done, then git revert is the tool for the job. It will undo the changes introduced by the bad commit, recording the "undo" in the history.
+
+2 Git rebase moves a feature branch into a master. Git merge adds a new commit, preserving the history.
+
+  If you're working alone or on a small team, use rebase. If you're working with a big team, use merge. 
+
+3 git stash pop throws away the (topmost, by default) stash after applying it, whereas git stash apply leaves it in the stash list for possible later reuse (or you can then git stash drop it).
+
+  If you want to apply your top stashed changes to current non-staged change and delete that stash as well, then you should go for git stash pop.
+ 
+  But if you are want to apply your top stashed changes to current non-staged change without deleting it, then you should go for git stash apply.
+
+4   Pick: keep the commit as it is currently in the history
+    Drop: remove the commit completely from the history
+    Squash: combine the commit with the one before it
+    Reword: change the Git commit message
+
+
