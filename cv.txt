@@ -2,3 +2,4 @@ Ini adalah file CV
 
 Perusahaan A
 Perusahaan B
+Perusahaan C
