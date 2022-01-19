@@ -1,0 +1,10 @@
+1 git clean is a convenience method for deleting untracked files in a repo's wo>
+2 to remove untracked directories
+3 git branch <branch>
+4 Fast forward merge can be performed when there is a direct linear path from t>
+  In Recursive merge, after you branch and make some commits, there are some ne>
+5 git checkout <branch>
+6 git add -u <directory-path>
+7 git branch -d <branch>
+8 Diff command is used in git to track the difference between the changes made >
+9 git reset <file>, lalu git checkout <file>
