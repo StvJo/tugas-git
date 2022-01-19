@@ -1,10 +1,20 @@
-1 git clean is a convenience method for deleting untracked files in a repo's wo>
-2 to remove untracked directories
+1 git clean is a convenience method for deleting untracked files in a repo's working directory.
+Untracked files are those that are in the repo's directory but have not yet been added to the repo's index with git add .
+
+2 to remove untracked directories.
+
 3 git branch <branch>
-4 Fast forward merge can be performed when there is a direct linear path from t>
-  In Recursive merge, after you branch and make some commits, there are some ne>
+
+4 Fast forward merge is merge strategy that can be performed when there is a direct linear path from the source branch to the target branch. In fast-forward merge, git simply moves the source branch pointer to the target branch pointer without creating an extra merge commit. In Recursive merge, after you branch and make some commits, there are some new original commits on the ‘master‘. So, when it’s time to merge, git recurses over the branch and creates a new merge commit. The merge commit continues to have two parents.
+
 5 git checkout <branch>
+
 6 git add -u <directory-path>
+
 7 git branch -d <branch>
-8 Diff command is used in git to track the difference between the changes made >
+
+8 to track the difference between the changes made on a file.
+
 9 git reset <file>, lalu git checkout <file>
+
+10 merge conflict is an event that occurs when Git is unable to automatically resolve differences in code between two commits.
